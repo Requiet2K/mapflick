@@ -1,0 +1,119 @@
+.foot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  border-top: 1px solid white;
+  padding: 15px;
+}
+
+.links {
+  font-size: 13px;
+}
+
+.orderP{
+  margin: 2.5rem 0 3rem 0;
+}
+
+.orderFoot {
+  text-decoration: none;
+  padding: 8px 62px;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid black;
+}
+
+.orderFoot:hover {
+  opacity: 0.6;
+  color: white;
+  border: 1px solid white;
+}
+
+.social-logo {
+  color: white;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social {
+  display: flex;
+  gap: 3rem;
+}
+
+.social-logo {
+  font-size: 32px;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-logo:hover {
+  opacity: 0.4;
+}
+
+.links-section {
+  display: flex;
+  gap: 5px;
+}
+
+.linksDot {
+  font-size: 14px;
+  color: white;
+}
+
+.terms {
+  font-size: 12px;
+}
+
+.home-footer {
+  background: url("https://cdn.discordapp.com/attachments/267204052473872385/1107024777786425354/UrunlerBG.jpg");
+  background-position: center;
+  border-color: black;
+}
+
+.home-footer .linksDot,
+.home-footer .social-logo,
+.home-footer .orderFoot,
+.home-footer .links {
+  color: black;
+  border-color: black;
+}
+
+.home-footer .terms {
+  color: rgb(82, 81, 81);
+}
+
+.footer-product{
+  background: #002838;
+  border-color: white;
+}
+.footer-product .linksDot,
+.footer-product .social-logo,
+.footer-product .orderFoot,
+.footer-product .links, .about-footer .orderFoot{
+  color: white;
+  border-color: white;
+}
+
+.footer-product .terms {
+  color: gray;
+}
+
+.about-footer .terms {
+  color: rgb(167, 165, 165);
+}
+
+@media (max-width: 320px){
+  .social{
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

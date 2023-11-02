@@ -1,0 +1,229 @@
+.navbar {
+    position: sticky;
+    font-family: "Oswald", sans-serif;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    border-bottom: 1px solid #0b0b1b;
+    transition: all 1s ease-in-out;
+  }
+
+  .aboutNav {
+    background: url("https://cdn.discordapp.com/attachments/267204052473872385/1107026561393246298/contact-bg-min.jpg");
+    border-color: white;
+  }
+
+  .navbar-brand-item {
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px !important;
+  }
+
+  .nav-right-item .active {
+    font-weight: 700;
+  }
+  
+  .nav-links,
+  .navbar-brand-item {
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+  }
+   
+  .nav-right-item {
+    display: flex;
+  }
+  
+  .logo {
+    color: black;
+  }
+  
+  .menu {
+    display: none;
+  }
+  
+  .menu:hover .menu-icon {
+    color: #ffc017;
+  }
+  
+  .menu:hover {
+    background-color: #000000;
+  }
+
+  .nav-links {
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+  }
+
+  .home{
+    background: transparent;
+    position: fixed;
+  }
+
+  .home{
+    border-color: white;
+  }
+
+  .home.scroll-active {
+    background: linear-gradient(to left bottom, #ffffff, #f5f5e7);
+    border-color: black;
+  }
+
+  .product {
+    background: linear-gradient(to left bottom, #dbd7d7, #fffefe);
+    border-color: black;
+  }
+
+  .home .nav-links, .home .navbar-brand-item, .home .logo{
+    color: white;
+  }
+
+  .home .menu-icon{
+    color: white;
+  }
+
+  .home .menu:hover .menu-icon{
+    color: white;
+  }
+
+  .home.scroll-active .menu-icon{
+    color: black;
+  }
+
+  .home .order,.home .nav-links:hover{
+    color: white;
+    background-color: coral;
+  }
+
+  .home .order:hover{
+    opacity: .7;
+  }
+
+  .home.scroll-active .nav-links,.product .nav-links, .product .navbar-brand-item,.home.scroll-active .logo, .home.scroll-active .navbar-brand-item{
+    color: black;
+  }
+
+  .home.scroll-active .order,.product .order{
+    color: black;
+    background-color: transparent;
+    border-color:black;
+  }
+
+  .home.scroll-active .nav-links:hover, .home.scroll-active .order-2:hover, .product .nav-links:hover, .product .order:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+  }
+
+  .product.scroll-active .logo,
+  .product.scroll-active .navbar-brand-item,
+  .product.scroll-active .nav-links {
+    color: white;
+  }
+  
+  .product.scroll-active .nav-links:hover {
+    color: black;
+    background-color: white;
+  }
+
+  .product.scroll-active .order{
+    border-color: #54B4D3;
+  }
+
+  .product.scroll-active {
+    background: linear-gradient(to bottom right, #002838, #002838);
+    border-color: #54B4D3;
+  }
+
+  .aboutNav .navbar-brand-item,
+  .aboutNav .logo,
+  .aboutNav .nav-links,
+  .aboutNav .menu-icon,
+  .product .menu:hover .menu-icon {
+    color: white;
+  }
+  
+  .aboutNav .menu:hover .menu-icon,
+  .aboutNav .nav-links:hover {
+    color: black;
+  }
+  
+  .aboutNav .menu:hover,
+  .aboutNav .nav-links:hover,
+  .aboutNav .order:hover {
+    background-color: white ;
+  } 
+  
+  @media (max-width: 992px) {
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .nav-right-item {
+      display: none;
+    }
+
+    .nav-links{
+      border: 1px solid black;
+    }
+
+    .product.scroll-active .nav-links,.aboutNav .nav-links {
+      border-color: white;
+    }
+  
+    .nav-right-column {
+      display: flex;
+      flex-direction: column;
+      flex: 100%;
+      margin-top: 10px;
+    }
+  
+    .menu {
+      display: flex;
+      background-color: transparent;
+      border: none;
+      font-size: 24px;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+
+  .menu-icon {
+    font-size: 20px;
+  }
+
+
+  .home.scroll-active .menu:hover .menu-icon{
+    color: white;
+  }
+
+  .product .menu-icon{
+    color: black;
+  }
+
+  .product.scroll-active .menu-icon {
+    color: white;
+  }
+
+  .product.scroll-active .menu:hover .menu-icon {
+    color: black;
+
+  }
+
+  .product.scroll-active .menu:hover {
+    background-color: white;
+  }
+
+  .aboutNav .menu:hover .menu-icon{
+    color: darkmagenta;
+  }
+
+  .aboutNav .order{
+    border: 1px solid white;
+  }

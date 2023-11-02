@@ -1,0 +1,66 @@
+.contact {
+  justify-content: center;
+  height: 600px;
+}
+
+.iletisim {
+  flex-direction: column;
+  height: 100%;
+  background-size: cover;
+  font-family: "Times New Roman", Times, serif, sans-serif;
+  position: relative;
+}
+
+@media (min-height: 970px) {
+    .contact{
+        height: 900px;
+    }
+    
+  }
+
+  @media (min-height: 1200px) {
+    .contact{
+        height: 1200px;
+    }
+    
+  }
+
+  @media (min-height: 1600px) {
+    .contact{
+        height: 1600px;
+    }
+    
+  }
+
+  @media (max-width: 400px) {
+
+    .infos{
+      font-size: 16px!important;
+    }
+
+    .reachUs{
+      font-size: 21px;
+      font-weight: 700;
+      width: 75%;
+    }
+    .steam-icon, .discord-icon{
+      width: 3rem!important;
+      height: 3rem!important;
+    }
+
+    .viaMail{
+      width: 90%;
+    } 
+
+    .contact{
+      padding: 0;
+    }
+  }
+
+  @media (max-width: 330px) {
+
+    .viaMail button{
+      padding: 2px 18px;
+    }
+  }
+
