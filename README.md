@@ -49,12 +49,6 @@ npm i axios yup react-router-dom@6 emailjs-com
 # Install Vite
 npm install -g create-vite
 
-# Create a Vite project with React
-create-vite my-mapflick --template react
-
-# Change into the Vite project directory
-cd my-mapflick
-
 # Install additional dependencies
 npm install formik
 
