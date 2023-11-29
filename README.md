@@ -2,7 +2,7 @@
 
 ## Overview
 
-MapFlick is a web platform designed for trading custom CS:GO maps, developed during my early days of learning React. The platform facilitates seamless communication between users and mappers, providing a space to discuss and create personalized CS:GO maps.
+[MapFlick](https://mapflick.com/) is a web platform designed for trading custom CS:GO maps, developed during my early days of learning React. The platform facilitates seamless communication between users and mappers, providing a space to discuss and create personalized CS:GO maps.
 
 Also it was my first project at React so I may not have been able to make some things modern in my first React project (which I did in June 2022) since it was my first one. I am continuing to improve and develop my skills.
 
